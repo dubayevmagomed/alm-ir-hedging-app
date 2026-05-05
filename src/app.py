@@ -56,6 +56,8 @@ h1, h2, h3 {
 
 st.header("Interest Rate Risk Hedging – ALM Prototype")
 
+st.markdown("---")
+
 st.markdown("""
 This project consists of two closely related components:
 
@@ -76,17 +78,15 @@ This project consists of two closely related components:
 - Liability risk analysis  
 - Hedge construction and performance comparison  
 
-Each page in the dashboard includes a dedicated **info** panel (dropdown), with concise descriptions of the underlying methodology, assumptions, and modelling framework (including key derivations and modelling choices).
-
+Each dashboard page includes an **info** panel (dropdown), with concise descriptions of the key derivations and modelling choices. 
 Core curve construction and pricing are built on top of  **Rateslib**, while the surrounding risk modelling, simulation, and hedging framework is implemented from scratch.
-
-This project is not intended as prodcution-ready application - aim is to demonstrate proficiency level within quantitative modelling, risk management and Python.
+This project is not intended as prodcution-ready application - aim is to demonstrate proficiency level within quantitative modelling, risk management and Python. 
 Scope is narrowed in terms of instruments (choice is limited to fixed/float IRS) and risk factors (only outright IR risk is considered - tenor basis, gamma, vega and FX risks are ignored).  
 These are left as natural next steps/extensions. The full solution was designed and implemented in approximately **3 weeks**.
 
 Both components are available as separate GitHub repositories:
-- Prototype: *[link to be added]*
-- Application: *[link to be added]*
+- Prototype: https://github.com/dubayevmagomed/alm-ir-hedging-prototype
+- Application: https://github.com/dubayevmagomed/alm-ir-hedging-app
 """)
 
 st.markdown("---")
