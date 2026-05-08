@@ -59,7 +59,9 @@ st.header("Interest Rate Risk Hedging – ALM Prototype")
 st.markdown("---")
 
 st.markdown("""
-This project consists of two closely related components:
+This project demonstrates a simplified ALM framework for hedging interest-rate sensitivity of long-dated liabilities using swaps and fixed income instruments.
+The application illustrates duration matching, key-rate exposure management, and hedge effectiveness under parallel and non-parallel curve shifts.
+The project consists of two closely related components:
 
 - **`alm_ir_hedging_prototype`**: a Python library for modelling and managing interest rate risk in an Asset-Liability Management (ALM) context.  
 - **`alm_ir_hedging_app`**: a Streamlit dashboard that visualizes model outputs and enables analysis of risk exposures and hedging strategies.
