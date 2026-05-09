@@ -244,7 +244,7 @@ with tab2:
    st.markdown("""  """)   
    
    st.markdown("""
-    **>>> Content**
+    **Content**
 
     • Spot PV01 delta and gamma  
     
